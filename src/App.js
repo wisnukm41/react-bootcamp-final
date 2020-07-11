@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './App.css';
 
+// import komponen
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
@@ -10,6 +11,7 @@ import Contact from './components/Contact';
 import Details from './components/Details';
 import Search from './components/Search';
 
+// import react router dom elemen
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,6 +23,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* menggunakan react-router */}
         <Router>
           <Navbar />
           <div className='container'>
